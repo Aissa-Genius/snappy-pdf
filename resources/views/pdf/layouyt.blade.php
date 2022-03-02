@@ -7,17 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        .note{
-            background-color: orange;
-            border: 2px dashed orangered;
-            padding: 20px ;
-        }
+
         .page{
             page-break-after: always;
         }
         .logo{
             width:120px;
             height: 40px;
+        }
+        .text_area{
+            padding: 10px;
+            border-radius:8px;
+            background: white ;
+            border: 1px solid #ced4da;
+            border-left: 4px solid #0dcaf047 ;
+            white-space:pre-line ;
+            overflow-wrap: anywhere;
+
         }
     </style>
 </head>
