@@ -15,7 +15,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+
     $pdf = App::make('snappy.pdf.wrapper');
-    $pdf->loadHTML('<h1>Test</h1>');
-    return $pdf->download();
+    $pdf->loadView('pdf.example');
+
+    $pdf->setOptions([
+        'margin-top' => '50',
+        'page-size' => 'a4',
+        'margin-bottom' => '8',
+        'footer-center' => '[page]',
+        'header-html' =>  view('pdf._header'),
+        'footer-html' =>  view('pdf._footer'),
+
+
+    ]);
+    return $pdf->stream();
+  //  return view('pdf.example');
 });

@@ -5,17 +5,22 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Example</title>
-    <link rel="stylesheet" href="{{asset('css/app.css')}}" >
+    <title>Document</title>
+    <style>
+
+    </style>
 </head>
-<style>
-
-</style>
 <body>
-<div class="container" >
-    <h1 class="bg-danger mt-4 " >Example</h1>
-    <p class="bg-dark">test  </p>
-</div>
+<div class="page-header"  >
 
+    <div  class="d-flex justify-content-between" >
+        <img    src="{{asset("/img/petitgenius.png")}}" alt=" ">
+        <h4>RECOMMANDATION D'INGÉNIERIE</h4>
+
+    </div>
+
+    <br/>
+
+</div>
 </body>
 </html>
