@@ -34,7 +34,6 @@
             height: 40px;
         }
         .text_area{
-            padding: 5px;
             border-radius:8px;
             background: white ;
             border: 1px solid #ced4da;
@@ -53,39 +52,38 @@
     </div>
 
     <div class="box" style="text-align: end;width: 40%;display: inline ;float: right " >
-        <h4>RECOMMANDATION D'INGÉNIERIE</h4>
+        <h3>RECOMMANDATION D'INGÉNIERIE</h3>
     </div>
 </div>
-<div class="note" >
-    <div class="bg-danger" >
+<div  >
         <h6>Intrants considérés lors de la présente soumission : </h6>
         <div class="text_area">
-            <p>
+            <p style="margin: 0">
                 - Courriel de Vistech le 2022-03-02
                 - Étude géotechnique de CIMA+ émise en décembre 2021
             </p>
         </div>
-    </div>
-    <div>
+
+
         <h6>Travaux à réaliser et livrables : </h6>
         <div class="text_area">
-            <p>
+            <p style="margin: 0" >
                 - Fourniture et installation de 2 pieux galvanisés pour des poubelles.
                 - Le type d'embout/plaque galvanisé est sujet à changement.
             </p>
         </div>
 
-    </div>
-    <div>
-        <h6>Note et exlusions: </h6>
+
+
+        <h4>Note et exlusions: </h4>
         <div class="text_area">
-            <p>
-                - Selon l'étude géotechnique, le roc est est situé à environ 0,4 mètre. Donc, les pieux seront ancrées au roc.
+
+            <p style="margin: 0" >   - Selon l'étude géotechnique, le roc est est situé à environ 0,4 mètre. Donc, les pieux seront ancrées au roc.
                 - L'excavation du terrain est à prévoir pour atteindre le roc.
             </p>
         </div>
 
-    </div>
+
 </div>
 
 <div class="page"></div>
