@@ -56,7 +56,7 @@
     </div>
 </div>
 <div  >
-        <h6>Intrants considérés lors de la présente soumission : </h6>
+        <h4>Intrants considérés lors de la présente soumission : </h4>
         <div class="text_area">
             <p style="margin: 0">
                 - Courriel de Vistech le 2022-03-02
@@ -65,7 +65,7 @@
         </div>
 
 
-        <h6>Travaux à réaliser et livrables : </h6>
+        <h4>Travaux à réaliser et livrables : </h4>
         <div class="text_area">
             <p style="margin: 0" >
                 - Fourniture et installation de 2 pieux galvanisés pour des poubelles.
