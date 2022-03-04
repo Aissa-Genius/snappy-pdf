@@ -34,7 +34,7 @@
             height: 40px;
         }
         .text_area{
-            padding: 10px;
+            padding: 5px;
             border-radius:8px;
             background: white ;
             border: 1px solid #ced4da;
@@ -48,8 +48,8 @@
 <body>
 
 <div class="clearfix">
-    <div class="box logo" style="background-color:#bbb">
-        <img    src="{{asset("/img/petitgenius.png")}}" alt=" ">
+    <div class="box " >
+        <img  class="logo"  src="{{asset("/img/petitgenius.png")}}" alt=" ">
     </div>
 
     <div class="box" style="text-align: end;width: 40%;display: inline ;float: right " >
