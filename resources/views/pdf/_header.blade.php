@@ -7,20 +7,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        body{
+            background-color: lightblue;
+        }
+        .logo{
+            width:120px;
+            max-height: 40px;
+        }
+        .box {
+            float: left;
+            width: 30%;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
 
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
     </style>
 </head>
 <body>
-<div class="page-header"  >
 
-    <div  class="d-flex justify-content-between" >
+<div class="clearfix">
+    <div class="logo" style="background-color:#bbb">
         <img    src="{{asset("/img/petitgenius.png")}}" alt=" ">
-        <h4>RECOMMANDATION D'INGÉNIERIE</h4>
-
     </div>
-
-    <br/>
-
+    <div class="box" >
+    </div>
+    <div class="box" style="float: right;text-align: end" >
+        <h3>RECOMMANDATION D'INGÉNIERIE</h3>
+    </div>
 </div>
 </body>
 </html>

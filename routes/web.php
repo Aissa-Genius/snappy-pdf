@@ -18,17 +18,21 @@ Route::get('/', function () {
 
     $pdf = App::make('snappy.pdf.wrapper');
     $pdf->loadView('pdf.example');
+    $pdf->loadView('pdf.example');
+    $pdf->setOption('enable-javascript', true);
+    $pdf->setOption('javascript-delay', 5000);
+    $pdf->setOption('enable-smart-shrinking', true);
+    $pdf->setOption('no-stop-slow-scripts', true);
 
     $pdf->setOptions([
-        'margin-top' => '50',
+        'margin-top' => '10',
         'page-size' => 'a4',
         'margin-bottom' => '8',
         'footer-center' => '[page]',
-        'header-html' =>  view('pdf._header'),
         'footer-html' =>  view('pdf._footer'),
 
 
     ]);
     return $pdf->stream();
-  //  return view('pdf.example');
+//     return view('pdf.layouyt');
 });
