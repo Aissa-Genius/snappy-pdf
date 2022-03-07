@@ -40,8 +40,11 @@
             border-left: 4px solid #0dcaf047 ;
             white-space:pre-line ;
             overflow-wrap: anywhere;
-
+            padding: 0;
+            margin: 0;
+            font-size: 11px;
         }
+
     </style>
 </head>
 <body>
@@ -65,12 +68,13 @@
         </div>
 
 
-        <h4>Travaux à réaliser et livrables : </h4>
+        <h4 style="margin: 0;padding: 0" >Travaux à réaliser et livrables : </h4>
         <div class="text_area">
-            <p style="margin: 0" >
+            <textarea style="margin: 0" >
+
                 - Fourniture et installation de 2 pieux galvanisés pour des poubelles.
                 - Le type d'embout/plaque galvanisé est sujet à changement.
-            </p>
+            </textarea>
         </div>
 
 
@@ -78,9 +82,9 @@
         <h4>Note et exlusions: </h4>
         <div class="text_area">
 
-            <p style="margin: 0" >   - Selon l'étude géotechnique, le roc est est situé à environ 0,4 mètre. Donc, les pieux seront ancrées au roc.
+            <textarea style="margin: 0" >   - Selon l'étude géotechnique, le roc est est situé à environ 0,4 mètre. Donc, les pieux seront ancrées au roc.
                 - L'excavation du terrain est à prévoir pour atteindre le roc.
-            </p>
+            </textarea>
         </div>
 
 
