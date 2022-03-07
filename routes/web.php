@@ -18,7 +18,6 @@ Route::get('/', function () {
 
     $pdf = App::make('snappy.pdf.wrapper');
     $pdf->loadView('pdf.example');
-    $pdf->loadView('pdf.example');
     $pdf->setOption('enable-javascript', true);
     $pdf->setOption('javascript-delay', 5000);
     $pdf->setOption('enable-smart-shrinking', true);
@@ -28,8 +27,8 @@ Route::get('/', function () {
         'margin-top' => '10',
         'page-size' => 'a4',
         'margin-bottom' => '8',
-        'footer-center' => '[page]',
-        'footer-html' =>  view('pdf._header'),
+//        'footer-center' => '[page]',
+//        'footer-html' =>  view('pdf._header'),
 
 
     ]);
