@@ -9,12 +9,12 @@
 
     <title>Document</title>
 
-
     <style>
         body{
             font-family: Roboto,Helvetica Neue,sans-serif !important;
             font-size: 11px!important;
             font-weight:400;
+            background-color: #fff;
         }
         p{
             margin-top: 0;
@@ -53,7 +53,7 @@
             border-radius:8px;
             background: white ;
             border: 1px solid #ced4da;
-            border-left: 2px solid #0dcaf047 ;
+            border-left: 3px solid #0dcaf047 ;
             white-space:pre-line ;
             overflow-wrap: anywhere;
             padding: 5px;
@@ -199,18 +199,31 @@
     </table>
 
 </div>
+</div>
+
+<div class="clearfix" >
+<div  style="width:22%;height: 250px; float: left" >
+    <p  style="margin-top:50px" >  Préparé par : </p>
+    <p style="margin-top: 100px" >Approuvé par : </p>
+</div>
+    <div style="width:44%;height: 250px;float: left">
+     <img  style="height: 25mm ;width: 70mm " src="img/sing.png">
+        <p style="border-top: 1px solid black"  > Gélinas Pierre-Olivier , Ing.  </p>
+        <img  style="height: 25mm ;width: 70mm;margin-top: 5px "  src="img/sing.png">
+        <p style="border-top: 1px solid black" > Gélinas Pierre-Olivier , Ing.  </p>
+    </div>
+    <div style="width:33%;height:250px;float: right;" >
+        <img style="height:35.03mm ; width: 59.55mm ; margin-top:70px "  src="img/seau.jpg">
+        <p style="text-align: center" >2022-03-06</p>
+    </div>
+</div>
+
 <div class="page"></div>
+
+
 <div style="margin-top: 70px" class="note">
     <h2>page 3</h2>
 
-    <div class="container" >
-        <div class="row">
-            <div class="col-6 bg-dark " style="height: 60px" ></div>
-            <div class="col-6 bg-danger" style="height: 60px" ></div>
-        </div>
-    </div>
-
 </div>
-</body>
 </body>
 </html>
