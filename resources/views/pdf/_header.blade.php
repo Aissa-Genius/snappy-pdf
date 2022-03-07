@@ -11,6 +11,11 @@
 
 
     <style>
+        body{
+            font-family: Roboto,Helvetica Neue,sans-serif !important;
+            font-size: 11px!important;
+            font-weight:400;
+        }
         p{
             margin-top: 0;
             margin-bottom: 0;
@@ -40,7 +45,6 @@
             border-radius: 8px ;
             box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
             white-space: pre-line;
-            font-family: Roboto, Helvetica Neue, sans-serif;
         }
         .secetion_information strong{
             text-decoration: underline
@@ -98,6 +102,7 @@
             text-align: center;
             border: none;
             border-bottom: 1px solid #ddd;
+            font-weight: 500;
 
         }
         tr{
@@ -128,29 +133,29 @@
 
 <div class="clearfix   "  style="  padding: 0 ;margin-top: 60px">
     <div  class="box secetion_information" style="float: left;text-align: end ; width: 50%;  ; margin: 0" >
-        <p  > <strong > Réparation de muret Riviere Richelieu</strong>
-        15 Rue Jacques-Cartier N , QC , <br>Saint-Jean-sur-Richelieu Québec Canada <br>J3B 8R8 </p>
+       <strong > Réparation de muret Riviere Richelieu</strong>
+        15 Rue Jacques-Cartier N , QC , <br>Saint-Jean-sur-Richelieu Québec Canada <br>J3B 8R8
     </div>
     <div  class="box secetion_information" style="float: left;text-align: end ; width: 50%;  " >
-        <p  > <strong > DESTINATAIRE / MAÎTRE DE L'OUVRAGE:</strong>
-            Interprojet <br>(418) 542-8280<br>d.pedneault@interpojet.ca </p>
+         <strong > DESTINATAIRE / MAÎTRE DE L'OUVRAGE:</strong>
+            Interprojet <br>(418) 542-8280<br>d.pedneault@interpojet.ca
     </div>
 </div>
 <hr/>
 <div class="note" >
     <div  >
         <h6>Intrants considérés lors de la présente soumission : </h6>
-        <div class="text_area"><p> - Courriel de Vistech le 2022-03-02
-                - Étude géotechnique de CIMA+ émise en décembre 2021</p></div></div>
+        <div class="text_area"> - Courriel de Vistech le 2022-03-02
+                - Étude géotechnique de CIMA+ émise en décembre 2021</div></div>
     <div>
         <h6>Travaux à réaliser et livrables : </h6>
-        <div class="text_area"><p>   - Fourniture et installation de 2 pieux galvanisés pour des poubelles.
-                - Le type d'embout/plaque galvanisé est sujet à changement.</p></div>
+        <div class="text_area">   - Fourniture et installation de 2 pieux galvanisés pour des poubelles.
+                - Le type d'embout/plaque galvanisé est sujet à changement.</div>
     </div>
     <div>
         <h6>Note et exlusions: </h6>
-        <div class="text_area"><p> - Selon l'étude géotechnique, le roc est est situé à environ 0,4 mètre. Donc, les pieux seront ancrées au roc.
-                - L'excavation du terrain est à prévoir pour atteindre le roc.</p></div>
+        <div class="text_area">- Selon l'étude géotechnique, le roc est est situé à environ 0,4 mètre. Donc, les pieux seront ancrées au roc.
+                - L'excavation du terrain est à prévoir pour atteindre le roc./div>
 
     </div>
 </div>
@@ -166,8 +171,8 @@
     <table class="table  mb-5">
         <thead>
         <tr >
-            <th scope="col">Type</th>
-            <th scope="col">Modéle</th>
+            <th scope="col" style="text-align: left !important;" >Type</th>
+            <th scope="col" style="text-align: left !important; "  >Modéle</th>
             <th scope="col">Quantité </th>
             <th scope="col">Unité </th>
             <th scope="col">Couple Requis</th>
@@ -176,18 +181,18 @@
         <tbody>
 {{--        @foreach($employee ?? '' as $data)--}}
             <tr>
-                <td scope="row">1</td>
-                <td> name test </td>
-                <td>email test</td>
-                <td> number phone test</td>
-                <td> Dob test</td>
+                <td style="text-align: left !important;"  >Pieu</td>
+                <td style="text-align: left !important;"  >Pieu Vistech [Fût: Φ3 1/2" | Longueur: 10'-0" | Hélice: 10"] </td>
+                <td>15</td>
+                <td> U</td>
+                <td> 0 lb-ft</td>
             </tr>
 <tr>
-    <td scope="row"> 2</td>
-    <td> name test 2 </td>
-    <td>email test  2</td>
-    <td> number phone test 2</td>
-    <td> Dob test 2</td>
+    <td scope="row" style="text-align: left !important;"> Ouvriers</td>
+    <td style="text-align: left !important;" > <span>Découpage Des Pieux En Chantier </span> </td>
+    <td>1</td>
+    <td> U</td>
+    <td></td>
 </tr>
 {{--        @endforeach--}}
         </tbody>
