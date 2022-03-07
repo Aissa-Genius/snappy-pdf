@@ -38,6 +38,6 @@ Route::get('/', function () {
 
     $pdf = App::make('dompdf.wrapper');
     $pdf->loadView('pdf._header');
-     return $pdf->download();
+     return $pdf->inline();
      // return view('pdf._header');
 });
