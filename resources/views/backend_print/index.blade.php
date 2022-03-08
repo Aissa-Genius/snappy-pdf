@@ -16,6 +16,7 @@
     <a type="button" class="btn btn-primary col-3" href="{{ url('/snappy') }}">Snappy</a>
     <a type="button" class="btn btn-primary col-3" href="{{ url('/html') }}">Backend Print (HTML)</a>
     <a type="button" class="btn btn-primary col-3" href="{{ url('/pdf') }}">Backend Print (PDF)</a>
+    <a type="button" class="btn btn-primary col-2" href="{{ url('/dompdf') }}">Dompdf  Print (PDF)</a>
 </div>
 
 </body>
