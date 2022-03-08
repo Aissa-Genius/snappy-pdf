@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\App;
+
 class BackendPrintController extends Controller
 {
     public function index(){
@@ -15,8 +17,11 @@ class BackendPrintController extends Controller
         ]);
     }
 
-    public function pdf(){
-        return view('backend_print.pdf');
+    public function dompdf(){
+        $pdf = App::make('dompdf.wrapper');
+        $pdf->loadView('pdf._header');
+         return $pdf->stream();
+        //return view('pdf._header');
     }
 
 }

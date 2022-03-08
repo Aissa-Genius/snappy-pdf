@@ -133,7 +133,7 @@
     Page <span class="pagenum"></span>
 </div>
 
-<div id="page1" style="background: lightgray;height: 1030px" >
+
 <div id="info" >
 <div class="clearfix   "  style="  padding: 0 ;margin-top: 60px">
     <div  class="box secetion_information" style="float: left;text-align: end ; width: 50%;  ; margin: 0" >
@@ -170,7 +170,7 @@
     <img  class="logo_vistech" src="img/logofr.svg" >
 </div>
 
-</div>
+
 <div class="page"></div>
 <div style="margin-top: 70px" class="note">
     <h6>Ventilation des équipements,des travaux à considérer :  </h6>
