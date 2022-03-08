@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BackendPrintController;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
@@ -14,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/snappy', function () {
 
 //    $pdf = App::make('snappy.pdf.wrapper');
 //    $pdf->loadView('pdf.example');
@@ -50,3 +51,7 @@ Route::get('/', function () {
       //return $pdf->stream();
       return view('pdf._header');
 });
+
+Route::get('/', [BackendPrintController::class, 'index']);
+Route::get('/html', [BackendPrintController::class, 'html']);
+Route::get('/pdf', [BackendPrintController::class, 'pdf']);
