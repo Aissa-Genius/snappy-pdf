@@ -1,4 +1,4 @@
-<div class="row my-2">
+<div class="row my-4">
 
     <span class="fw-bold mb-2">Ventilation des équipements, des travaux à considérer :</span>
 
