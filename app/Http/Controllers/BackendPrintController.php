@@ -103,10 +103,26 @@ class BackendPrintController extends Controller
 
     public function parseData($pdfData)
     {
+
         //dd($pdfData);
+        $number_lines = count(explode(PHP_EOL, $pdfData['intrants_considere_lors_presente']))
+            + count(explode(PHP_EOL, $pdfData['travaux_realiser_et_livrables']))
+            + count(explode(PHP_EOL, $pdfData['notes_et_exclusions']));
+
+        if ($number_lines <= 16) {
+            $max_height = '';
+        } elseif ($number_lines >= 26) {
+            $max_height = ' style="max-height:50px;"';
+        } else {
+            $max_height = ceil(500 - ($number_lines - 16)*48);
+            $max_height = ' style="max-height:' . $max_height . 'px;"';
+        }
+
+        //$max_height = ' style="max-height:500px;"';
 
         try {
             return [
+                'max_height' => $max_height,
                 'titles' => [
                     'perimetre' => explode(',', $pdfData['demande']['address']),
                     'destinataire' => [$pdfData['demande']['client_name'], $pdfData['demande']['phone'], $pdfData['demande']['email']],
@@ -140,6 +156,8 @@ class BackendPrintController extends Controller
                     'seal_date' => $pdfData['aprroved']['approved_at'],
                 ]
             ];
+
+
         } catch (Exception $e) {
             Log::error($e->getMessage());
             //dump($e->getMessage());
