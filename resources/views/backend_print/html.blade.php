@@ -46,6 +46,10 @@
         @include('backend_print.partials.part_4_notes')
     </div>
 
+    <div class="row">
+        @include('backend_print.partials.part_5_croquis')
+    </div>
+
     <p style="page-break-before: always"></p>
 
     <div class="row">
@@ -54,13 +58,7 @@
 
     <hr/>
 
-    <div class="row">
-        @include('backend_print.partials.part_5_croquis')
-    </div>
-
-    <hr/>
-
-    <div class="row">
+    <div class="row mt-5">
         @include('backend_print.partials.part_6_ventilation')
     </div>
 
