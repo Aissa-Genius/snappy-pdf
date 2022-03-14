@@ -15,6 +15,7 @@
             font-size: 11px!important;
             font-weight:400;
             background-color: #fff;
+            height: 100%;
         }
         p{
             margin-top: 0;
@@ -112,11 +113,14 @@
             border-bottom: 1px solid #ddd;
         }
 
+
+
+
     </style>
 </head>
 <body>
 
-<div class="header"  >
+<div id="header" class="header"  >
     <div class="clearfix">
         <div class="box" >
             <img   class="logo" src="img/petitgenius.png" alt=" ">
@@ -125,12 +129,12 @@
     </div>
     <hr/>
 </div>
-<div class="footer">
+<div  id="footer" class="footer">
     Page <span class="pagenum"></span>
 </div>
 
 
-
+<div id="info" >
 <div class="clearfix   "  style="  padding: 0 ;margin-top: 60px">
     <div  class="box secetion_information" style="float: left;text-align: end ; width: 50%;  ; margin: 0" >
        <strong > Réparation de muret Riviere Richelieu</strong>
@@ -155,15 +159,17 @@
     <div>
         <h6>Note et exlusions: </h6>
         <div class="text_area">- Selon l'étude géotechnique, le roc est est situé à environ 0,4 mètre. Donc, les pieux seront ancrées au roc.
-                - L'excavation du terrain est à prévoir pour atteindre le roc./div>
-
+                -L'excavation du terrain est à prévoir pour atteindre le roc.
     </div>
+</div>
+</div>
 </div>
 <h6>Croquis du concept : </h6>
 <div  style="border: 1px solid #ced4da;position: relative; height: 280px; padding: 5px"  >
     <img  style="height:available ; width: 100% "  src="img/pdfImg.png" alt=" ">
     <img  class="logo_vistech" src="img/logofr.svg" >
 </div>
+
 
 <div class="page"></div>
 <div style="margin-top: 70px" class="note">
@@ -199,7 +205,7 @@
     </table>
 
 </div>
-</div>
+
 
 <div class="clearfix" >
 <div  style="width:22%;height: 250px; float: left" >
@@ -223,7 +229,14 @@
 
 <div style="margin-top: 70px" class="note">
     <h2>page 3</h2>
-
 </div>
+<script type="text/javascript" >
+    var clientHeight = document.getElementById('info').offsetHeight;
+    var header_Height = document.getElementById('header').offsetHeight;
+    var footer_Height = document.getElementById('footer').offsetHeight;
+    var page1_Height = document.getElementById('page1').offsetHeight;
+     console.log(clientHeight + "H" + header_Height + "F" + footer_Height + 'all' +page1_Height) ;
+
+</script>
 </body>
 </html>

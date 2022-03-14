@@ -7,6 +7,7 @@ use Exception;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\URL;
 
+
 class BackendPrintController extends Controller
 {
     public function index()
