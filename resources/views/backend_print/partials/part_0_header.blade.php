@@ -6,7 +6,7 @@
     </div>
 
     <div class="col-8">
-        <div class="d-flex justify-content-end align-items-center fw-bold fs-4">
+        <div class="d-flex justify-content-end align-items-center fw-bold fs-3">
             RECOMMANDATION D'INGÉNIERIE
         </div>
     </div>

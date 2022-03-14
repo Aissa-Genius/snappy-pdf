@@ -2,10 +2,10 @@
 
     <span class="fw-bold mb-2">Croquis du concept :</span>
 
-    <div class="p-l-3 my-2">
-        <div class="border-start rounded-start border-5 p-4 bg-white" style="background-color: #F7F7F7;">
+    <div>
+        <div class="pt-3 text_area px-3 pb-2">
 
-            <img src="{{ $croquis }}" class="img-fluid" alt="...">
+            <img src="{{ $croquis }}" class="img-fluid" alt="..." <?php echo $max_height ?>>
 
         </div>
     </div>

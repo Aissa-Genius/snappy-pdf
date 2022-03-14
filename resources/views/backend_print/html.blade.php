@@ -9,6 +9,17 @@
     <title>PRINT PDF</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        .text_area{
+            border-radius:8px;
+            background: white ;
+            border: 1px solid #ced4da;
+            border-left: 3px solid #0dcaf047 ;
+            /*white-space:pre-line ;*/
+            /*overflow-wrap: anywhere;*/
+            /*padding: 5px;*/
+        }
+    </style>
 </head>
 <style>
 
@@ -34,13 +45,9 @@
         @include('backend_print.partials.part_2_intrants')
     </div>
 
-    <hr/>
-
     <div class="row">
         @include('backend_print.partials.part_3_travaux')
     </div>
-
-    <hr/>
 
     <div class="row">
         @include('backend_print.partials.part_4_notes')
@@ -56,13 +63,11 @@
         @include('backend_print.partials.part_0_header')
     </div>
 
-    <hr/>
+    <hr />
 
     <div class="row mt-5">
         @include('backend_print.partials.part_6_ventilation')
     </div>
-
-    <hr/>
 
     <div class="row">
         @include('backend_print.partials.part_7_signatures')

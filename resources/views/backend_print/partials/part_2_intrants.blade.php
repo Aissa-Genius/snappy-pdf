@@ -2,16 +2,15 @@
 
     <span class="fw-bold mb-2">Intrants considérés lors de la présente soumission :</span>
 
-    <div class="p-l-3 my-2">
-        <div class="border-start rounded-start border-5" style="background-color: #F7F7F7;">
-
-            <ol class="list-group list-group-numbered">
+    <div>
+        <div class="pt-3 text_area">
+            <ul>
                 @foreach($intrants as $key => $value)
-                    <li class="list-group-item border-0">
+                    <li>
                         {{ $value }}
                     </li>
                 @endforeach
-            </ol>
+            </ul>
         </div>
     </div>
 

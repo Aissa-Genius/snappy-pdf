@@ -2,8 +2,8 @@
 
     <span class="fw-bold mb-2">Ventilation des équipements, des travaux à considérer :</span>
 
-    <div class="p-l-3 my-2">
-        <div class="border-start rounded-start border-5 p-4" style="border-color: #F7F7F7;">
+    <div>
+        <div class="pt-3 text_area p-3">
 
             <table class="table table-striped">
                 <thead>
